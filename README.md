@@ -1,58 +1,36 @@
-# Lovable + Claude + Vercel: how I actually built convertleads.pro
+# Lovable + Claude = 10k$ Website (almost) for free
 
-One click. One prompt. A perfect website in ten seconds. That's the pitch
-you keep seeing online, and it's a lie.
+This is NOT the same "Ai website in One click" cuz is a lie.
 
 Here's what it actually takes to build a "$10K website" with AI, and exactly
-how I did it for convertleads.pro.
+how I did it for convertleads.pro. 
+
+It took me a month to perfect the website as non tech.
+
+If you interested here is the full story behind 139 commits, 24 of them about logos, 7 of them
+full rollbacks, one full brand pivot in the middle. Scroll it yourself:
+[the commit history is public](https://github.com/ljkhgjvchf/nicola/commits/main).
+Full phase-by-phase breakdown in [`prompts/evolution.md`](prompts/evolution.md).
+
 
 **Pinned version:** this case study refers to
 [this exact commit](https://github.com/ljkhgjvchf/nicola/tree/82e3b49fb22b687b4d9cd8f22c26449ffdc6300b)
 of the live site. The repo keeps moving after this; that commit is the fixed
 point the story below describes.
 
-## Proof, not claims: the convertleads.pro source repo
 
-July 2025. A long, unusually detailed prompt goes into Lovable (the real
-thing, verbatim, in [`prompts/master-prompt.md`](prompts/master-prompt.md)).
-The design comes out almost right on the first pass. Within 48 hours it's
-already been rolled back twice.
+## The stack
 
-Then the real fight starts, and it's not about design. For nine days in
-September 2025, almost a quarter of all the edits made on this project are
-about one thing: logos. Client logos that won't load, won't align, render
-at the wrong size, or just break. Not taste, not layout, just broken images,
-over and over.
-
-Six months later, in March 2026, a bigger swerve: the business behind the
-site changes. What started as a personal "Nicola Da Dalto, AI Automation"
-pitch becomes "ConvertLeads." Not a copy edit, a full rebuild: nav, footer,
-logo, every case study page, touched again.
-
-By summer 2026, the gaps that only show up once a site is actually live get
-patched in: an FAQ section, a favicon, meta tags and schema markup, a
-sitemap, bilingual EN/IT support. None of it was in the original prompt.
-All of it got added once the site had been out in the world for a while.
-
-That's the full story behind 139 commits, 24 of them about logos, 7 of them
-full rollbacks, one full brand pivot in the middle. Scroll it yourself:
-[the commit history is public](https://github.com/ljkhgjvchf/nicola/commits/main).
-Full phase-by-phase breakdown in [`prompts/evolution.md`](prompts/evolution.md).
-
-## The real stack
-
-Most "I built this with AI" content names one tool. Here's what actually
-built convertleads.pro:
 
 | Layer | Tool | What it did |
 |---|---|---|
-| Build/edit | **Lovable** | Generates and edits the app from prompts |
-| Blocks | **21st.dev / Magic UI** | Pre-built, shadcn-compatible sections dropped in where Lovable's default output wasn't good enough |
-| Design reference | **land-book.com, Dribbble, Behance** | Where the actual visual direction came from before any prompting started |
-| Manual edits | **Claude (Code)** | Took over once Lovable's free-tier credits or patience ran out, editing the GitHub-synced repo directly |
+| Build/edit | **Lovable** | Free version |
+| Blocks | **21st.dev / Magic UI** | Pre-built UI/UX sections |
+| Website reference | **land-book.com, Dribbble, Behance** | Copy paste and improve |
+| Manual edits | **Claude (Code)** | Took over once Lovable's FREE-tier credits or patience ran out, editing the GitHub-synced repo directly |
 | Hosting | **Vercel** | Auto-deploys from the same repo Lovable and Claude both write to |
 
-Even Lovable's free tier has real limits, and publishing to your own custom
+Lovable's free tier has real limits, and publishing to your own custom
 domain is one of the big ones. That's exactly where Claude came in: instead
 of upgrading Lovable's plan, the GitHub-synced repo got edited directly and
 Vercel handled the custom domain deploy. Free tier in, real domain out.
