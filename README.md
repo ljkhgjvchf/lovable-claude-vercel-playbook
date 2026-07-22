@@ -1,3 +1,11 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="docs/banner-light.svg">
+  <img alt="Website Building Playbook" src="docs/banner-light.svg">
+</picture>
+
+![License](https://img.shields.io/badge/license-MIT-0080FF) ![Live](https://img.shields.io/badge/live-convertleads.pro-0080FF) ![Stack](https://img.shields.io/badge/stack-Lovable%20%2B%20Claude%20%2B%20Vercel-0080FF)
+
 # Lovable + Claude = 10k$ Website (almost) for free
 
 Here's what it actually takes to build a "$10K website" with AI, and exactly
