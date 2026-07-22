@@ -6,11 +6,15 @@ result is genuinely possible without knowing how to code, but it takes real
 time, not seconds, and it only works for the right kind of site.
 
 **Proof, not claims:** the [convertleads.pro source repo](https://github.com/ljkhgjvchf/nicola)
-has been committed to by Lovable's own bot since February 2026. In the most
-recent 30 commits alone, **21 (70%) are generic "Changes" commits**, small
-repeated edits, interspersed with specific fixes like "Fixed GitHub logo,
-added trans." and "Swapped Coty and McDonald's logos." That's what iteration
-actually looks like. Scroll it yourself.
+has 139 commits from the first prompt to today. 24 of them (17%) are just
+fixing broken or misaligned logos, the single biggest recurring problem in
+the whole build. 7 are explicit rollbacks ("Reverted to commit..."), proof
+that not every AI-generated change was a keeper. And in March 2026, the
+entire business identity changed mid-build, from a personal "Nicola Da Dalto,
+AI Automation" pitch to the "ConvertLeads" brand live today, which is not a
+prompt refinement, it's a full pivot that happened after the site was already
+built once. Full breakdown in [`prompts/evolution.md`](prompts/evolution.md).
+Scroll the commit history yourself, it's public.
 
 ## The real stack
 
@@ -38,10 +42,12 @@ different sources feeding it.
    Mobbin, Dribbble, and Behance are where the visual direction came from
    before Lovable ever saw a prompt.
 2. **Write the master prompt against that reference.** See
-   [`prompts/master-prompt.md`](prompts/master-prompt.md).
+   [`prompts/master-prompt.md`](prompts/master-prompt.md), the real one used
+   here.
 3. **Iterate in Lovable.** This is most of the time spent, not seconds. See
-   [`prompts/evolution.md`](prompts/evolution.md) for what actually changed
-   between the first version and what's live now.
+   [`prompts/evolution.md`](prompts/evolution.md) for the actual 139-commit
+   history: what changed, when, and why, including a full mid-build brand
+   pivot that no prompt predicted.
 4. **Snipe blocks for the sections Lovable doesn't nail.** 21st.dev and Magic
    UI, adapted into the project, see [`blocks/`](blocks/).
 5. **Hand off to Claude when Lovable stalls.** Once free-tier credits or
