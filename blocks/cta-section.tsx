@@ -1,4 +1,4 @@
-// CTA section block — genericized from src/components/CTASection.tsx.
+// CTA section block, genericized from src/components/CTASection.tsx.
 // Pattern: centered headline + pill CTA button, fades in on scroll into view.
 // Source: Lovable's own output, refined by hand.
 //

@@ -1,7 +1,7 @@
-// Hero section block — genericized from src/components/HeroSection.tsx.
+// Hero section block, genericized from src/components/HeroSection.tsx.
 // Pattern: oversized thin-weight headline, framer-motion fade/slide-in,
 // shadcn/ui Button. Source: Lovable's own output for this section, refined
-// by hand — not sniped from an external block library.
+// by hand, not sniped from an external block library.
 //
 // Requires: framer-motion, shadcn/ui Button (@/components/ui/button)
 

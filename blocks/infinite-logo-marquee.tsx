@@ -1,7 +1,7 @@
-// Infinite logo marquee block — genericized from src/components/CompanyLogosSection.tsx.
+// Infinite logo marquee block, genericized from src/components/CompanyLogosSection.tsx.
 // SOURCE FLAG: this InfiniteSlider/BlurredInfiniteSlider pattern (mask-fade edges,
 // hover-to-slow-down, duplicate-children-for-seamless-loop) is a recognizable
-// UI-sniping block commonly published on sites like 21st.dev / originui.com —
+// UI-sniping block commonly published on sites like 21st.dev / originui.com,
 // not something Lovable's default output produces from scratch. Confirm the
 // exact source and its license before reusing commercially; this file keeps
 // the same structure/prop names as the live site for traceability.
@@ -128,7 +128,7 @@ export function BlurredInfiniteSlider({
   );
 }
 
-// Example usage — swap `items` for your own logos/badges
+// Example usage: swap `items` for your own logos/badges
 type MarqueeItem = { name: string; logoSrc: string; height?: number };
 
 export const LogoMarquee = ({ label, items }: { label: string; items: MarqueeItem[] }) => (

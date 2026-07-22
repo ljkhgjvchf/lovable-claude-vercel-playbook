@@ -1,4 +1,4 @@
-// FAQ accordion block — genericized from src/components/FAQSection.tsx.
+// FAQ accordion block, genericized from src/components/FAQSection.tsx.
 // Pattern: two-column layout, heading + badge on the left, shadcn/ui
 // Accordion on the right. Source: Lovable's own output, refined by hand.
 //

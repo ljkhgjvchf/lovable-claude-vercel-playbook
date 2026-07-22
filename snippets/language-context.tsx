@@ -1,4 +1,4 @@
-// Bilingual (EN/IT) content context — the pattern powering convertleads.pro's
+// Bilingual (EN/IT) content context, the pattern powering convertleads.pro's
 // language toggle. Genericized from src/contexts/LanguageContext.tsx: same
 // structure, business copy stripped out and replaced with placeholder keys.
 //
