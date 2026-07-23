@@ -96,9 +96,9 @@ Check on Dekstop and Phone if everthing works properly. Ask Lovable to fix, and 
 
 ## Watch the Tutorial video
 
-🎥 5min video 
+🎥 5min video
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://cap.so/embed/fzcef5d6q9k96ea" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+[![Watch the tutorial](https://cap.so/api/video/og?videoId=fzcef5d6q9k96ea)](https://cap.so/s/fzcef5d6q9k96ea)
 
 ## What's in this repo
 
