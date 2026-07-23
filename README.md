@@ -94,10 +94,11 @@ Check on Dekstop and Phone if everthing works properly. Ask Lovable to fix, and 
 
 🚧 **Real ceiling: static/simple sites only.** Landing pages, portfolio sites, simple startup marketing sites, yes. Anything needing daily updates or publishing (a blog with frequent posts, news, a product catalog) needs an actual CMS. This stack doesn't replace one, and most "AI website" content never mentions it because most of it never ships anything that needs updating after launch.
 
-## Watch the video
+## Watch the Tutorial video
 
-🎥 Full video breakdown coming this afternoon, a real walkthrough of the
-process above, step by step. Link will go here once it's live.
+🎥 5min video 
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://cap.so/embed/fzcef5d6q9k96ea" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## What's in this repo
 
