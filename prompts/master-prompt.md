@@ -8,7 +8,7 @@ Create a luxury feeling high-end landing page, as if you were a senior website d
 
 For the landing page, I want it to include:
 
-A hero section with a title, copy, and get started button centred, the link must redirect to calendly (https://calendly.com/nicola-da-dalto/15min) to book a call. Text on CTA use "Let's Automate Your Business".
+A hero section with a title, copy, and get started button centred, the link must redirect to calendly (https://calendly.com/yourname) to book a call. Text on CTA use "Let's Automate Your Business".
 
 Case studies section:
 
@@ -20,7 +20,7 @@ c. Service: AI Lead Generation Systems. Client: Ca' di Rajo Wines (wine company)
 
 A section to list the services. Block with title, text, and 3 cards with the services. a. AI Customer Support. b. AI Phone Receptionist. c. AI Lead Generation Systems.
 
-Section to give a short description of who Nicola Da Dalto is. The section has the goal of building trust by showing his face and skills. Include in the block the profile image "nicola" attached. Make a moving carousel with just the logo of the tools he uses: N8N, Make.com, Apify, Instantly, MailChimp, HubSpot, Apollo, Zapier, ChatGPT, Cloud, Deepseek.
+Section to give a short description of who [YOUR NAME] is. The section has the goal of building trust by showing his face and skills. Include in the block the profile image "YOUORnAME" attached. Make a moving carousel with just the logo of the tools he uses: N8N, Make.com, Apify, Instantly, MailChimp, HubSpot, Apollo, Zapier, ChatGPT, Cloud, Deepseek.
 
 A client's list logo section. List the Clients that he worked with. Attached you can find the logos of all clients: "exclusible" link website https://www.exclusible.com/; "cointelegraph" link website https://cointelegraph.com/; "europeanunion" link website https://eit-ris.eu/
 
@@ -36,7 +36,7 @@ Do you offer a guarantee? Yes! [continue the answer]
 
 A Get in touch CTA section before the footer, that points to Calendly.
 
-Footer: include the logo (the logo is the name "Nicola Da Dalto" in Montserrat font), his LinkedIn (use icon) (https://www.linkedin.com/in/nicoladadalto/), and email dadalto.nicola@gmail.com
+Footer: include the logo (the logo is the name "Nicola Da Dalto" in Montserrat font), his LinkedIn (use icon) (https://www.linkedin.com/in/yourname/), and email youremail@gmail.com
 
 The landing page should also have a top navigation with only anchor links to all the sections on the homepage, and not link to any other page. The top navigation should also be sticky and blur the background behind it when you scroll.
 
